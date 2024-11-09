@@ -55,6 +55,18 @@ function App() {
           <img src="d4.svg" alt="Icon 4" className="mx-4 w-60 h-60" />
           <img src="d5.svg" alt="Icon 5" className="mx-4 w-60 h-60" />
           <img src="d6.svg" alt="Icon 6" className="mx-4 w-60 h-60" />
+          <img src="d1.svg" alt="Icon 1" className="mx-4 w-60 h-60" />
+          <img src="d2.svg" alt="Icon 2" className="mx-4 w-60 h-60" />
+          <img src="d3.svg" alt="Icon 3" className="mx-4 w-60 h-60" />
+          <img src="d4.svg" alt="Icon 4" className="mx-4 w-60 h-60" />
+          <img src="d5.svg" alt="Icon 5" className="mx-4 w-60 h-60" />
+          <img src="d6.svg" alt="Icon 6" className="mx-4 w-60 h-60" />
+          <img src="d1.svg" alt="Icon 1" className="mx-4 w-60 h-60" />
+          <img src="d2.svg" alt="Icon 2" className="mx-4 w-60 h-60" />
+          <img src="d3.svg" alt="Icon 3" className="mx-4 w-60 h-60" />
+          <img src="d4.svg" alt="Icon 4" className="mx-4 w-60 h-60" />
+          <img src="d5.svg" alt="Icon 5" className="mx-4 w-60 h-60" />
+          <img src="d6.svg" alt="Icon 6" className="mx-4 w-60 h-60" />
         </Marquee>
       </div>
 
