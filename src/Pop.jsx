@@ -9,7 +9,7 @@ export default function Pop() {
 
   return (
     <div className="md:w-2/5 mt-12 md:mt-0">
-      <div className="border border-black md:px-12 px-6 rounded-xl pt-5 md:bg-gradient-to-r from-[#E2E7EB] to-[#BACDD2]">
+      <div className="border border-black md:px-12 px-6 rounded-xl pt-12 bg-gradient-to-r from-[#E2E7EB] to-[#BACDD2]">
         {assessmentSubmitted ? (
           // Content after the button click
           <>
@@ -216,7 +216,7 @@ export default function Pop() {
               </button>
             </div>
             <div className="items-center justify-center text-gray-600 flex mt-4">
-              <p className="text-center">
+              <p className="text-center text-xs mb-10">
                 ©2024 mytwin Privacy Policy,Terms of Service apply
               </p>
             </div>

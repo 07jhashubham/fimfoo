@@ -35,7 +35,9 @@ function App() {
             <div className="md:flex md:flex-col md:w-3/5">
               <h1 className=" md:text-6xl text-3xl">
                 Achieve <br />{" "}
-                <span className=" text-[#FF6B00]">Optimal Health</span>
+                <span className=" text-[#FF6B00] font-bold">
+                  Optimal Health
+                </span>
                 <br />
                 through <b>Tailored & Data-Driven Metabolic Care</b>
               </h1>
@@ -47,23 +49,23 @@ function App() {
       </div>
 
       {/* Marquee section with images */}
-      <div className="marquee-container ">
+      <div className="marquee-container">
         <Marquee speed={50} gradient={false}>
           <img src="d1.svg" alt="Icon 1" className="mx-4 w-60 h-60" />
           <img src="d2.svg" alt="Icon 2" className="mx-4 w-60 h-60" />
-          <img src="d3.svg" alt="Icon 3" className="mx-4 w-60 h-60" />
+          <img src="d3.svg" alt="Icon 3" className="mx-4 w-44 h-60" />
           <img src="d4.svg" alt="Icon 4" className="mx-4 w-60 h-60" />
           <img src="d5.svg" alt="Icon 5" className="mx-4 w-60 h-60" />
           <img src="d6.svg" alt="Icon 6" className="mx-4 w-60 h-60" />
           <img src="d1.svg" alt="Icon 1" className="mx-4 w-60 h-60" />
           <img src="d2.svg" alt="Icon 2" className="mx-4 w-60 h-60" />
-          <img src="d3.svg" alt="Icon 3" className="mx-4 w-60 h-60" />
+          <img src="d3.svg" alt="Icon 3" className="mx-4 w-44 h-60" />
           <img src="d4.svg" alt="Icon 4" className="mx-4 w-60 h-60" />
           <img src="d5.svg" alt="Icon 5" className="mx-4 w-60 h-60" />
           <img src="d6.svg" alt="Icon 6" className="mx-4 w-60 h-60" />
           <img src="d1.svg" alt="Icon 1" className="mx-4 w-60 h-60" />
           <img src="d2.svg" alt="Icon 2" className="mx-4 w-60 h-60" />
-          <img src="d3.svg" alt="Icon 3" className="mx-4 w-60 h-60" />
+          <img src="d3.svg" alt="Icon 3" className="mx-4 w-44 h-60" />
           <img src="d4.svg" alt="Icon 4" className="mx-4 w-60 h-60" />
           <img src="d5.svg" alt="Icon 5" className="mx-4 w-60 h-60" />
           <img src="d6.svg" alt="Icon 6" className="mx-4 w-60 h-60" />
