@@ -6,6 +6,8 @@
   position: relative;
   overflow: hidden;
   background-image: url("/lol.svg");
+  object-fit: cover;
+  background-repeat: repeat-y;
 }
 
 .video-background {

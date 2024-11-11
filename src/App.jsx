@@ -16,7 +16,7 @@ function App() {
       {/* Conditionally render content based on button click */}
       <div className="content">
         <div>
-          <div className="md:flex md:items-center md:justify-between">
+          <div className="md:flex md:items-center md:justify-between -mt-4 md:-mt-10">
             <img
               src="logo.svg"
               alt="Logo"
@@ -31,7 +31,7 @@ function App() {
             />
           </div>
 
-          <div className="md:flex md:px-10 px-4">
+          <div className="md:flex md:px-10 px-4 -mt-10">
             <div className="md:flex md:flex-col md:w-3/5">
               <h1 className=" md:text-6xl text-3xl">
                 Achieve <br />{" "}
@@ -49,7 +49,7 @@ function App() {
       </div>
 
       {/* Marquee section with images */}
-      <div className="marquee-container">
+      <div className="marquee-container -mt-20">
         <Marquee speed={50} gradient={false}>
           <img src="d1.svg" alt="Icon 1" className="mx-4 w-60 h-60" />
           <img src="d2.svg" alt="Icon 2" className="mx-4 w-60 h-60" />
@@ -72,7 +72,7 @@ function App() {
         </Marquee>
       </div>
 
-      <div className=" bg-[#E6E6E6] flex flex-col md:flex-row space-y-4 md:space-y-0 md:justify-between px-8 py-4 text-center">
+      <div className=" bg-[#E6E6E6] flex flex-col md:flex-row space-y-4 md:space-y-0 md:justify-between px-8 py-4 -mt-16 text-center">
         <p>
           Connect with us at : <br />
           <b>info@mytwinlab.com</b>

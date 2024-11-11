@@ -70,16 +70,16 @@ export default function Pop() {
               />
             </div>
             <div className="flex items-center justify-center mt-4">
-              <select className="w-full py-2 border-2 border-black rounded-md opacity-65 text-center">
-                <option value="none">Share your activity goals</option>
-              </select>
+              <div className="w-full py-2 border-2 bg-white  border-black rounded-md opacity-65 text-center">
+                <p>Share your activity goals</p>
+              </div>
             </div>
 
             {/* Radio Button Section */}
             <div className="flex flex-col w-full border-2 border-black rounded-md bg-white mt-4 p-4 opacity-65 text-start ">
               <label className="flex items-center">
                 <input
-                  type="radio"
+                  type="checkbox"
                   name="goals"
                   value="self-care"
                   className="mr-2"
@@ -88,7 +88,7 @@ export default function Pop() {
               </label>
               <label className="flex items-center">
                 <input
-                  type="radio"
+                  type="checkbox"
                   name="goals"
                   value="homemade-meals"
                   className="mr-2"
@@ -97,7 +97,7 @@ export default function Pop() {
               </label>
               <label className="flex items-center">
                 <input
-                  type="radio"
+                  type="checkbox"
                   name="goals"
                   value="health-improvement"
                   className="mr-2"
@@ -107,7 +107,7 @@ export default function Pop() {
               </label>
               <label className="flex items-center">
                 <input
-                  type="radio"
+                  type="checkbox"
                   name="goals"
                   value="stay-healthy"
                   className="mr-2"
