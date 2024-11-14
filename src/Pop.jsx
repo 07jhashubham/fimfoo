@@ -262,7 +262,7 @@ export default function Pop() {
                 <div className="flex items-start space-x-5">
                   <img src="kaam.svg" alt="" className="w-4 h-6" />
                   <p className="text-left">
-                    Real-Time Insights & Personalised Guidances
+                    Real-Time Insights & Personalised Guidance
                   </p>
                 </div>
                 <div className="flex items-start space-x-5">
