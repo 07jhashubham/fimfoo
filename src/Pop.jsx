@@ -9,7 +9,7 @@ export default function Pop() {
 
   return (
     <div className="md:w-2/5 mt-12 md:mt-0">
-      <div className="border border-black md:px-12 px-6 rounded-xl pt-12 bg-gradient-to-r from-[#E2E7EB] to-[#BACDD2]">
+      <div className="border border-black md:px-12 px-6 rounded-xl pt-12 bg-gradient-to-r from-[#E2E7EB] to-[#BACDD2] ">
         {assessmentSubmitted ? (
           // Content after the button click
           <>
@@ -28,18 +28,18 @@ export default function Pop() {
                 name="first"
                 id="first"
                 placeholder="First Name"
-                className="w-full py-2 text-center border-2 border-black rounded-md opacity-65"
+                className="w-full py-2 text-center border-2 border-black rounded-full opacity-65"
               />
               <input
                 type="text"
                 name="last"
                 id="last"
                 placeholder="Last Name"
-                className="w-full py-2 text-center border-2 border-black rounded-md opacity-65"
+                className="w-full py-2 text-center border-2 border-black rounded-full opacity-65"
               />
             </div>
             <div className="flex items-center justify-center mt-4">
-              <select className="w-full py-2 border-2 border-black rounded-md opacity-65 text-center">
+              <select className="w-full py-2 border-2 border-black rounded-full opacity-65 text-center">
                 <option value="">Select your age</option>
                 {Array.from({ length: 100 }, (_, i) => (
                   <option key={i + 1} value={i + 1}>
@@ -52,7 +52,7 @@ export default function Pop() {
               <input
                 type="number"
                 placeholder="Mobile Number"
-                className="w-full py-2 border-2 border-black rounded-md opacity-65 text-center no-spinner"
+                className="w-full py-2 border-2 border-black rounded-full opacity-65 text-center no-spinner"
               />
             </div>
             <div className="flex space-x-4 mt-4">
@@ -61,16 +61,16 @@ export default function Pop() {
                 name="city"
                 id="city"
                 placeholder="City"
-                className="w-full py-2 text-center border-2 border-black rounded-md opacity-65"
+                className="w-full py-2 text-center border-2 border-black rounded-full opacity-65"
               />
               <input
                 type="number"
                 placeholder="Pincode"
-                className="w-full py-2 border-2 border-black rounded-md opacity-65 text-center no-spinner"
+                className="w-full py-2 border-2 border-black rounded-full opacity-65 text-center no-spinner"
               />
             </div>
             <div className="flex items-center justify-center mt-4">
-              <div className="w-full py-2 border-2 bg-white  border-black rounded-md opacity-65 text-center">
+              <div className="w-full py-2 border-2 bg-white  border-black rounded-full opacity-65 text-center">
                 <p>Share your activity goals</p>
               </div>
             </div>
@@ -189,17 +189,17 @@ export default function Pop() {
               <input
                 type="text"
                 placeholder="Other health goals?"
-                className="w-full py-2 text-center border-2 border-black rounded-md opacity-65"
+                className="w-full py-2 text-center border-2 border-black rounded-full opacity-65"
               />
               <input
                 type="text"
                 placeholder="Where did you hear about MyTwin?"
-                className="w-full py-2 text-center border-2 border-black rounded-md opacity-65"
+                className="w-full py-2 text-center border-2 border-black rounded-full opacity-65"
               />
               <input
                 type="text"
                 placeholder="What actions help you reach your health and fitness goals?"
-                className="w-full py-2 text-center border-2 border-black rounded-md opacity-65"
+                className="w-full py-2 text-center border-2 border-black rounded-full opacity-65"
               />
             </div>
             <div className="flex justify-center items-center mt-4">
@@ -217,7 +217,7 @@ export default function Pop() {
             </div>
             <div className="items-center justify-center text-gray-600 flex mt-4">
               <p className="text-center text-xs mb-10">
-                ©2024 mytwin Privacy Policy,Terms of Service apply
+                ©2024 mytwin Privacy Policy,Terms of Service applied
               </p>
             </div>
           </>
@@ -233,34 +233,42 @@ export default function Pop() {
                 doctors
               </p>
             </div>
-            <p className="font-bold text-center mt-6">Join now for </p>
+            <p className="font-bold text-center mt-6" style={{ fontSize: "1.2em" }} 
+                >Join now for </p>
             <div className="flex items-center justify-center">
-              <div className="mt-6 space-y-2">
+              <div className="mt-4 space-y-2">
                 <div className="flex items-start space-x-5">
-                  <img src="kaam.svg" alt="" className="w-6 h-6" />
+                  <img src="kaam.svg" alt="" className="w-4 h-6" />
                   <p className="text-left">
-                    Analysis across 10 key health domains
+                    Analysis Across 10 Key Health Domains
                   </p>
                 </div>
                 <div className="flex items-start space-x-5">
-                  <img src="kaam.svg" alt="" className="w-6 h-6" />
-                  <p className="text-left">Monitoring 100+ biomarkers</p>
+                  <img src="kaam.svg" alt="" className="w-4 h-6" />
+                  <p className="text-left">
+                    Monitoring 100+ Biomarkers</p>
                 </div>
                 <div className="flex items-start space-x-5">
-                  <img src="kaam.svg" alt="" className="w-6 h-6" />
+                  <img src="kaam.svg" alt="" className="w-4 h-6" />
                   <p className="text-left">
-                    Early detection, prevention & reversal
+                    Daily Tracking: Food, Activity, Sleep, Vitals & Stress
                   </p>
                 </div>
                 <div className="flex items-start space-x-5">
-                  <img src="kaam.svg" alt="" className="w-6 h-6" />
-                  <p className="text-left">Real-time insights & guidance</p>
+                  <img src="kaam.svg" alt="" className="w-4 h-6" />
+                  <p className="text-left">
+                    Early Detection, Warnings & Prevention of Health Risks</p>
                 </div>
                 <div className="flex items-start space-x-5">
-                  <img src="kaam.svg" alt="" className="w-6 h-6" />
+                  <img src="kaam.svg" alt="" className="w-4 h-6" />
                   <p className="text-left">
-                    Tailored & personalised interventions
+                    Real-Time Insights & Personalised Guidances
                   </p>
+                </div>
+                <div className="flex items-start space-x-5">
+                  <img src="kaam.svg" alt="" className="w-4 h-6" />
+                  <p className="text-left">
+                    Tailored Health Interventions</p>
                 </div>
               </div>
             </div>
@@ -270,21 +278,24 @@ export default function Pop() {
                 name="email"
                 id="email"
                 placeholder="Enter e-mail address"
-                className="w-full py-2 text-center border-2 border-black rounded-md opacity-65"
+                className="w-full py-2 text-center border-2 border-black rounded-full opacity-65" // Updated to rounded-lg
               />
             </div>
             <div className="flex items-center justify-center mt-4">
               <button
                 onClick={handleButtonClick}
-                className="mx-8 bg-[#FF6B00] py-2 text-white font-sans rounded-lg w-full"
+                className="mx-8 bg-[#FF6B00] py-2 text-white font-sans rounded-full w-full"
               >
                 Get free health assessment report
               </button>
             </div>
-            <div className="mt-4 text-center mb-8">
+            <div className="mt-4 text-center mb-4">
               Join The MYTWIN community today for early access & exclusive
               benefits
             </div>
+            <div className="mt-2 text-center mb-8" style={{ fontSize: "0.8em" }}>
+            Privacy Policy . Term of service applied
+  </div>
           </>
         )}
       </div>
