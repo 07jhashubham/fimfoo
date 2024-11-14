@@ -38,25 +38,22 @@ export default function Pop() {
                 className="w-full py-2 text-center border-2 border-black rounded-full opacity-65"
               />
             </div>
-            <div className="flex items-center justify-center mt-4">
-  <select className="w-full py-2 border-2 border-black rounded-full opacity-65 text-center">
-    <option value="">Select your age range</option>
-    {[
-      "20-29",
-      "30-39",
-      "40-49",
-      "50-59",
-      "60-69",
-      "70-79",
-      "80-89",
-      "90-99",
-    ].map((range, index) => (
-      <option key={index} value={range}>
-        {range}
-      </option>
-    ))}
-  </select>
-</div>
+                  <div className="flex items-center justify-center mt-4">
+        <select className="w-full py-2 border-2 border-black rounded-full opacity-65 text-center">
+          <option value="">Select your age range</option>
+          {[
+            "20-29",
+            "30-39",
+            "40-49",
+            "50-59",
+            "60-69",
+          ].map((range, index) => (
+            <option key={index} value={range}>
+              {range}
+            </option>
+          ))}
+        </select>
+      </div>
 
             <div className="flex items-center justify-center mt-4">
               <input
