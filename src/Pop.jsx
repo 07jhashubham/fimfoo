@@ -304,15 +304,7 @@ export default function Pop() {
                 </div>
               </div>
             </div>
-            <div className="flex items-center justify-center mt-4">
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Enter e-mail address"
-                className="w-full py-2 text-center border-2 border-black rounded-full opacity-65" // Updated to rounded-lg
-              />
-            </div>
+            
             <div className="flex flex-col items-center justify-center mt-4 w-full max-w-md mx-auto">
   {/* Email Input Box */}
   <input
