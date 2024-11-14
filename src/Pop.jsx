@@ -214,7 +214,7 @@ export default function Pop() {
               />
               <input
                 type="text"
-                placeholder="Where did you hear about MyTwin?"
+                placeholder="Where did you hear about mytwin?"
                 className="w-full py-2 text-center border-2 border-black rounded-full opacity-65"
               />
               <input
@@ -241,6 +241,11 @@ export default function Pop() {
                 ©2024 mytwin Privacy Policy,Terms of Service Applied
               </p>
             </div>
+            <div className="items-center justify-center text-gray-600 flex mt-4">
+              <p className="text-center text-xs mb-10">
+                ©2024 mytwin Privacy Policy,Terms of Service Applied
+              </p>
+            </div>
           </>
         ) : (
           // Initial content
@@ -258,35 +263,35 @@ export default function Pop() {
             <div className="flex items-center justify-center">
               <div className="mt-4 space-y-2">
                 <div className="flex items-start space-x-5">
-                  <img src="kaam.svg" alt="" className="w-4 h-6" />
+                  <img src="kaam.svg" alt="" className="w-2 h-6" />
                   <p className="text-left">
                     Analysis Across 10 Key Health Domains
                   </p>
                 </div>
                 <div className="flex items-start space-x-5">
-                  <img src="kaam.svg" alt="" className="w-4 h-6" />
+                  <img src="kaam.svg" alt="" className="w-2 h-6" />
                   <p className="text-left">
                     Monitoring 100+ Biomarkers</p>
                 </div>
                 <div className="flex items-start space-x-5">
-                  <img src="kaam.svg" alt="" className="w-4 h-6" />
+                  <img src="kaam.svg" alt="" className="w-2 h-6" />
                   <p className="text-left">
                     Daily Tracking: Food, Activity, Sleep, Vitals & Stress
                   </p>
                 </div>
                 <div className="flex items-start space-x-5">
-                  <img src="kaam.svg" alt="" className="w-4 h-6" />
+                  <img src="kaam.svg" alt="" className="w-2 h-6" />
                   <p className="text-left">
                     Early Detection, Warnings & Prevention of Health Risks</p>
                 </div>
                 <div className="flex items-start space-x-5">
-                  <img src="kaam.svg" alt="" className="w-4 h-6" />
+                  <img src="kaam.svg" alt="" className="w-2 h-6" />
                   <p className="text-left">
                     Real-Time Insights & Personalised Guidance
                   </p>
                 </div>
                 <div className="flex items-start space-x-5">
-                  <img src="kaam.svg" alt="" className="w-4 h-6" />
+                  <img src="kaam.svg" alt="" className="w-2 h-6" />
                   <p className="text-left">
                     Tailored Health Interventions</p>
                 </div>
