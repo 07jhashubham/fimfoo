@@ -38,43 +38,39 @@ export default function Pop() {
                 className="w-full py-2 text-center border-2 border-black rounded-full opacity-65"
               />
             </div>
-                  <div className="flex items-center justify-center mt-4">
-        <select className="w-full py-2 border-2 border-black rounded-full opacity-65 text-center">
-          <option value="">Select your age range</option>
-          {[
-            "20-29",
-            "30-39",
-            "40-49",
-            "50-59",
-            "60-69",
-          ].map((range, index) => (
-            <option key={index} value={range}>
-              {range}
-            </option>
-          ))}
-        </select>
-      </div>
+            <div className="flex items-center justify-center mt-4">
+              <select className="w-full py-2 border-2 border-black rounded-full opacity-65 text-center">
+                <option value="">Select your age range</option>
+                {["20-29", "30-39", "40-49", "50-59", "60-69"].map(
+                  (range, index) => (
+                    <option key={index} value={range}>
+                      {range}
+                    </option>
+                  )
+                )}
+              </select>
+            </div>
 
-      <div className="flex items-center justify-center mt-4">
-  <div className="flex items-center w-full">
-    {/* Country code dropdown */}
-    <select className="py-2 border-2 border-black rounded-l-full opacity-65 text-center">
-      <option value="+1">+1</option>
-      <option value="+91">+91</option>
-      <option value="+44">+44</option>
-      <option value="+61">+61</option>
-      <option value="+81">+81</option>
-      {/* Add more country codes as needed */}
-    </select>
+            <div className="flex items-center justify-center mt-4">
+              <div className="flex items-center w-full">
+                {/* Country code dropdown */}
+                <select className="py-2.5 border-2 border-black rounded-l-full opacity-65 text-center">
+                  <option value="+1">+1</option>
+                  <option value="+91">+91</option>
+                  <option value="+44">+44</option>
+                  <option value="+61">+61</option>
+                  <option value="+81">+81</option>
+                  {/* Add more country codes as needed */}
+                </select>
 
-    {/* Mobile number input */}
-    <input
-      type="number"
-      placeholder="Mobile Number"
-      className="w-full py-2 border-2 border-l-0 border-black rounded-r-full opacity-65 text-center no-spinner"
-    />
-  </div>
-</div>
+                {/* Mobile number input */}
+                <input
+                  type="number"
+                  placeholder="Mobile Number"
+                  className="w-full py-2 border-2 border-l-0 border-black rounded-r-full opacity-65 text-center no-spinner"
+                />
+              </div>
+            </div>
 
             <div className="flex space-x-4 mt-4">
               <input
@@ -98,7 +94,7 @@ export default function Pop() {
 
             {/* Radio Button Section */}
             <div className="flex flex-col w-full border-2 border-black rounded-md bg-white mt-4 p-4 opacity-65 text-start ">
-            <p className="text-sm mb-2">(Select all that apply)</p>
+              <p className="text-sm mb-2">(Select all that apply)</p>
               <label className="flex items-center">
                 <input
                   type="checkbox"
@@ -239,9 +235,13 @@ export default function Pop() {
             </div>
             <div className="items-center justify-center text-gray-600 flex mt-4">
               <p className="text-center text-xs mb-5">
-              * By providing your phone number,you agree to receive recurring automated marketing text messages (e.g.cart reminder, health program launch) from this platform and third parties acting on its behalf.
-
-Consent is not a condition to obtain goods or services. Msg and data rate may apply. Message frequency varies. Reply HELP for help and STOP to cancel.You are also agree to the Terms of Services and Privacy Policy.
+                * By providing your phone number,you agree to receive recurring
+                automated marketing text messages (e.g.cart reminder, health
+                program launch) from this platform and third parties acting on
+                its behalf. Consent is not a condition to obtain goods or
+                services. Msg and data rate may apply. Message frequency varies.
+                Reply HELP for help and STOP to cancel.You are also agree to the
+                Terms of Services and Privacy Policy.
               </p>
             </div>
             <div className="items-center justify-center text-gray-600 flex mt-4">
@@ -258,11 +258,16 @@ Consent is not a condition to obtain goods or services. Msg and data rate may ap
             </p>
             <div className="items-center justify-center flex mt-4">
               <p className="text-center md:w-[80%]">
-                Real-time Metabolic Health Monitoring Platform Designed by Experts & Doctors
+                Real-time Metabolic Health Monitoring Platform Designed by
+                Experts & Doctors
               </p>
             </div>
-            <p className="font-bold text-center mt-6" style={{ fontSize: "1.2em" }} 
-                >Join now for </p>
+            <p
+              className="font-bold text-center mt-6"
+              style={{ fontSize: "1.2em" }}
+            >
+              Join now for{" "}
+            </p>
             <div className="flex items-center justify-center">
               <div className="mt-4 space-y-2">
                 <div className="flex items-start space-x-5">
@@ -273,8 +278,7 @@ Consent is not a condition to obtain goods or services. Msg and data rate may ap
                 </div>
                 <div className="flex items-start space-x-5">
                   <img src="kaam.svg" alt="" className="w-3 h-6" />
-                  <p className="text-left">
-                    Monitoring 100+ Biomarkers</p>
+                  <p className="text-left">Monitoring 100+ Biomarkers</p>
                 </div>
                 <div className="flex items-start space-x-5">
                   <img src="kaam.svg" alt="" className="w-3 h-6" />
@@ -285,7 +289,8 @@ Consent is not a condition to obtain goods or services. Msg and data rate may ap
                 <div className="flex items-start space-x-5">
                   <img src="kaam.svg" alt="" className="w-3 h-6" />
                   <p className="text-left">
-                    Early Detection, Warnings & Prevention of Health Risks</p>
+                    Early Detection, Warnings & Prevention of Health Risks
+                  </p>
                 </div>
                 <div className="flex items-start space-x-5">
                   <img src="kaam.svg" alt="" className="w-3 h-6" />
@@ -295,8 +300,7 @@ Consent is not a condition to obtain goods or services. Msg and data rate may ap
                 </div>
                 <div className="flex items-start space-x-5">
                   <img src="kaam.svg" alt="" className="w-3 h-6" />
-                  <p className="text-left">
-                    Tailored Health Interventions</p>
+                  <p className="text-left">Tailored Health Interventions</p>
                 </div>
               </div>
             </div>
@@ -322,10 +326,13 @@ Consent is not a condition to obtain goods or services. Msg and data rate may ap
               Join The mytwin community today for early access & exclusive
               benefits
             </div>
-            
-            <div className="mt-2 text-center mb-8" style={{ fontSize: "0.8em" }}>
-            ©2024 mytwin Privacy Policy . Terms of Service Applied
-  </div>
+
+            <div
+              className="mt-2 text-center mb-8"
+              style={{ fontSize: "0.8em" }}
+            >
+              ©2024 mytwin Privacy Policy . Terms of Service Applied
+            </div>
           </>
         )}
       </div>
