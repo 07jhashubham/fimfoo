@@ -55,13 +55,27 @@ export default function Pop() {
         </select>
       </div>
 
-            <div className="flex items-center justify-center mt-4">
-              <input
-                type="number"
-                placeholder="Mobile Number"
-                className="w-full py-2 border-2 border-black rounded-full opacity-65 text-center no-spinner"
-              />
-            </div>
+      <div className="flex items-center justify-center mt-4">
+  <div className="flex items-center w-full">
+    {/* Country code dropdown */}
+    <select className="py-2 border-2 border-black rounded-l-full opacity-65 text-center">
+      <option value="+1">+1</option>
+      <option value="+91">+91</option>
+      <option value="+44">+44</option>
+      <option value="+61">+61</option>
+      <option value="+81">+81</option>
+      {/* Add more country codes as needed */}
+    </select>
+
+    {/* Mobile number input */}
+    <input
+      type="number"
+      placeholder="Mobile Number"
+      className="w-full py-2 border-2 border-l-0 border-black rounded-r-full opacity-65 text-center no-spinner"
+    />
+  </div>
+</div>
+
             <div className="flex space-x-4 mt-4">
               <input
                 type="text"
