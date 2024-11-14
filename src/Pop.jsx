@@ -313,15 +313,24 @@ export default function Pop() {
                 className="w-full py-2 text-center border-2 border-black rounded-full opacity-65" // Updated to rounded-lg
               />
             </div>
-            <div className="flex items-center justify-center mt-4">
-              <button
-                onClick={handleButtonClick}
-                className="mx-20 bg-[#FF6B00] py-2 text-white font-sans rounded-full w-full"
-                style={{ padding: "2pt 40pt" }} // Adds 2pt top and bottom padding, 40pt left and right padding
-              >
-                Get Free Health Assessment Score
-              </button>
-            </div>
+            <div className="flex flex-col items-center justify-center mt-4 w-full max-w-md mx-auto">
+  {/* Email Input Box */}
+  <input
+    type="email"
+    placeholder="Enter e-mail address"
+    className="w-full py-2 text-center border-2 border-black rounded-full opacity-65"
+  />
+
+  {/* Button */}
+  <button
+    onClick={handleButtonClick}
+    className="bg-[#FF6B00] py-2 text-white font-sans rounded-full w-full mt-4"
+    style={{ padding: "2pt 0" }} // Adjust padding as needed
+  >
+    Get Free Health Assessment Score
+  </button>
+</div>
+
             <div className="mt-4 text-center mb-4">
               Join The mytwin community today for early access & exclusive
               benefits
