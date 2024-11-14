@@ -241,7 +241,7 @@ export default function Pop() {
               <p className="text-center text-xs mb-5">
               * By providing your phone number,you agree to receive recurring automated marketing text messages (e.g.cart reminder, health program launch) from this platform and third parties acting on its behalf.
 
-Consent is not a condition to obtain goods or services.Msg.and data rate may Message frequency varies.Reply HELP for help and STOP to cancel.You are also agree to the Terms of Services and Privacy Policy.
+Consent is not a condition to obtain goods or services. Msg and data rate may appl. Message frequency varies. Reply HELP for help and STOP to cancel.You are also agree to the Terms of Services and Privacy Policy.
               </p>
             </div>
             <div className="items-center justify-center text-gray-600 flex mt-4">
