@@ -317,7 +317,7 @@ export default function Pop() {
   <button
     onClick={handleButtonClick}
     className="bg-[#FF6B00] py-2 text-white font-sans rounded-full w-full mt-4"
-    style={{ padding: "2pt 0" }} // Adjust padding as needed
+    style={{ padding: "4pt 0" }} // Adjust padding as needed
   >
     Get Free Health Assessment Score
   </button>
