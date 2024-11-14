@@ -16,48 +16,53 @@ function App() {
       {/* Conditionally render content based on button click */}
       <div className="content">
         <div>
-          <div className="md:flex md:items-center md:justify-between -mt-4 md:-mt-8">
+          <div className="flex items-center justify-center md:justify-between -mt-4 md:-mt-8">
             <img
               src="logo.svg"
               alt="Logo"
-              className="md:w-1/3 md:h-44 h-36 md:-ml-16"
+              className="w-1/2 h-36 md:w-1/3 md:h-44 md:-ml-16 mx-auto"
               draggable="false"
             />
             <img
               src="topside.svg"
               alt="Topside"
-              className="w-2/3 -mt-8 md:block hidden"
+              className="hidden md:block w-2/3 -mt-8"
               draggable="false"
             />
           </div>
 
-          <div className="md:flex md:px-10 px-4 -mt-10 mb">
+          <div className="md:flex md:px-10 px-4 -mt-10 ">
             <div className="md:flex md:flex-col md:w-3/5">
-              <h1 className=" md:text-6xl text-3xl">
-                Achieve <br />{" "}
-                <span className=" text-[#FF6B00] font-bold">
-                  Optimal Health
-                </span>
+              <h1 className="text-3xl md:text-6xl text-center md:text-left">
+                Achieve <br />
+                <span className="text-[#FF6B00] font-bold">Optimal Health</span>
                 <br />
-                through <b> Tailored <br /> & Data-Driven <br /> Metabolic Care</b>
+                through{" "}
+                <b>
+                  Tailored <br /> & Data-Driven <br /> Metabolic Care
+                </b>
               </h1>
-              <img 
-              src="main.svg" 
-              alt="" 
-              className=" md:flex h-1/2 mt-10 md:-ml-20"
-              style={{ width: "3000px", height: "380px" }} />
+              <img
+                src="main.svg"
+                alt=""
+                className="md:flex h-1/2 mt-10 md:-ml-20"
+                style={{ width: "3000px", height: "380px" }}
+              />
             </div>
+
             <Pop />
           </div>
         </div>
       </div>
 
-      <div className="md:flex md:flex-col text-center ml-10 mb-2 mt-5" style={{ fontSize: "1.8em" }}>
-  <h1 className="text-[#000000] ">
-    Tracking Millions of Health Data Points Daily
-  </h1>
-</div>
-
+      {/* <div
+        className="md:flex md:flex-col text-center ml-10 mb-2 mt-5"
+        style={{ fontSize: "1.8em" }}
+      > */}
+      <h1 className="text-[#000000] text-3xl text-center mx-10 mt-5 ">
+        Tracking Millions of Health Data Points Daily
+      </h1>
+      {/* </div > */}
 
       {/* Marquee section with images */}
       <div className="marquee-container -mt-20">
@@ -86,10 +91,8 @@ function App() {
       <div className=" bg-[#E6E6E6] flex flex-col md:flex-row space-y-4 md:space-y-0 md:justify-between px-8 py-4 -mt-16 text-center">
         <p>
           Connect with us at :<b> info@mytwinlab.com</b>
-        </ p>
-        <p>
-          © 2024 mytwin . All rights reserved
         </p>
+        <p>© 2024 mytwin . All rights reserved</p>
       </div>
     </div>
   );
