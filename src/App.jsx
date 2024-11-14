@@ -61,7 +61,7 @@ function App() {
 
       {/* Marquee section with images */}
       <div className="marquee-container -mt-20">
-        <Marquee speed={50} gradient={false}>
+        <Marquee speed={75} gradient={false}>
           <img src="d1.svg" alt="Icon 1" className="mx-4 w-60 h-60" />
           <img src="d2.svg" alt="Icon 2" className="mx-4 w-60 h-60" />
           <img src="d3.svg" alt="Icon 3" className="mx-4 w-44 h-60" />
