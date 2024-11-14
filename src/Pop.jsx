@@ -285,7 +285,7 @@ export default function Pop() {
                 onClick={handleButtonClick}
                 className="mx-8 bg-[#FF6B00] py-2 text-white font-sans rounded-full w-full"
               >
-                Get free health assessment report
+                Get Free Health Assessment Score
               </button>
             </div>
             <div className="mt-4 text-center mb-4">

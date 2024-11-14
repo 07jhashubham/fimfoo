@@ -53,7 +53,7 @@ function App() {
       </div>
 
       <div className="md:flex md:flex-col text-center ml-10 mb-2 mt-5" style={{ fontSize: "1.8em" }}>
-  <h1 className="text-[#000000] font-bold">
+  <h1 className="text-[#000000] ">
     Tracking Millions of Health Data Points Daily
   </h1>
 </div>
