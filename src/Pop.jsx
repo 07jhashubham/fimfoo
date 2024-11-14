@@ -293,7 +293,7 @@ export default function Pop() {
               benefits
             </div>
             <div className="mt-2 text-center mb-8" style={{ fontSize: "0.8em" }}>
-            ©2024 mytwin Privacy Policy . Term of Service Applied
+            ©2024 mytwin Privacy Policy . Terms of Service Applied
   </div>
           </>
         )}
