@@ -239,7 +239,9 @@ export default function Pop() {
             </div>
             <div className="items-center justify-center text-gray-600 flex mt-4">
               <p className="text-center text-xs mb-10">
-                ©2024 mytwin Privacy Policy,Terms of Service Applied
+              * By providing your phone number,you agree to receive recurring automated marketing text messages (e.g.cart reminder, health program launch) from this platform and third parties acting on its behalf.
+
+Consent is not a condition to obtain goods or services.Msg.and data rate may Message frequency varies.Reply HELP for help and STOP to cancel.You are also agree to the Terms of Services and Privacy Policy.
               </p>
             </div>
             <div className="items-center justify-center text-gray-600 flex mt-4">
@@ -319,6 +321,7 @@ export default function Pop() {
               Join The mytwin community today for early access & exclusive
               benefits
             </div>
+            
             <div className="mt-2 text-center mb-8" style={{ fontSize: "0.8em" }}>
             ©2024 mytwin Privacy Policy . Terms of Service Applied
   </div>
