@@ -39,7 +39,7 @@ function App() {
                   Optimal Health
                 </span>
                 <br />
-                through <b> Tailored <br /> & Data-Driven Metabolic Care</b>
+                through <b> Tailored <br /> & Data-Driven <br /> Metabolic Care</b>
               </h1>
               <img 
               src="main.svg" 
