@@ -98,6 +98,7 @@ export default function Pop() {
 
             {/* Radio Button Section */}
             <div className="flex flex-col w-full border-2 border-black rounded-md bg-white mt-4 p-4 opacity-65 text-start ">
+            <p className="text-sm mb-2">(Select all that apply)</p>
               <label className="flex items-center">
                 <input
                   type="checkbox"
