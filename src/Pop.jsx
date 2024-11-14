@@ -225,7 +225,7 @@ export default function Pop() {
           // Initial content
           <>
             <p className="md:text-4xl text-2xl text-center tracking-wide">
-              Journey to better health with MyTwin
+              Journey to better health with mytwin
             </p>
             <div className="items-center justify-center flex mt-4">
               <p className="text-center md:w-[80%]">
@@ -289,7 +289,7 @@ export default function Pop() {
               </button>
             </div>
             <div className="mt-4 text-center mb-4">
-              Join The MYTWIN community today for early access & exclusive
+              Join The mytwin community today for early access & exclusive
               benefits
             </div>
             <div className="mt-2 text-center mb-8" style={{ fontSize: "0.8em" }}>
