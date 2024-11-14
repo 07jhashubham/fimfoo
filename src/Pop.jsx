@@ -229,8 +229,7 @@ export default function Pop() {
             </p>
             <div className="items-center justify-center flex mt-4">
               <p className="text-center md:w-[80%]">
-                Cutting-edge metabolic health technology designed by experts &
-                doctors
+                Real-time Metabolic Health Monitoring Platform Designed by Experts & Doctors
               </p>
             </div>
             <p className="font-bold text-center mt-6" style={{ fontSize: "1.2em" }} 
