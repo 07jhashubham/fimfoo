@@ -253,9 +253,10 @@ export default function Pop() {
         ) : (
           // Initial content
           <>
-            <p className="md:text-[40px] text-[40px] -mt-2 text-center tracking-wide">
-  Journey to better <br/> health with mytwin
+            <p className="text-center tracking-wide -mt-2 text-[5vw] leading-tight">
+  Journey to better <br /> health with mytwin
 </p>
+
 
             <div className="items-center justify-center flex mt-6">
               <p className="text-center md:w-[80%]">
