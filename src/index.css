@@ -26,7 +26,16 @@
   height: 100%;
   z-index: -1;
   overflow: hidden;
+  opacity: 1; /* Full opacity by default */
 }
+
+/* Media query for small devices */
+@media (max-width: 768px) {
+  .video-background {
+    opacity: 0.4; /* 40% opacity for small devices */
+  }
+}
+
 
 .background-video {
   width: 100vw;
