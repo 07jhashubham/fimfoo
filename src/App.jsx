@@ -39,13 +39,13 @@ function App() {
                 <br />
                 through{" "}
                 <b>
-                  Tailored <br /> & Data-Driven <br /> Metabolic Care
+                  Tailored <br /> & Data-Driven <br /> Metabolic Care1
                 </b>
               </h1>
               <img
                 src="main.svg"
                 alt=""
-                className="md:flex h-1/2 mt-10 md:-ml-20 md:mt-2"
+                className="md:flex h-1/2 mt-10 md:-ml-20 sm:mt-0"
                 style={{ width: "3000px", height: "380px" }}
               />
             </div>
