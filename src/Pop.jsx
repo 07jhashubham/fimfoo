@@ -246,17 +246,18 @@ export default function Pop() {
             </div>
             <div className="items-center justify-center text-gray-600 flex mt-4">
               <p className="text-center text-xs mb-10">
-                ©2024 mytwin Privacy Policy,Terms of Service Applied
+                ©2024 mytwin Privacy Policy,Terms of Service Apply
               </p>
             </div>
           </>
         ) : (
           // Initial content
           <>
-            <p className="md:text-4xl text-2xl text-center tracking-wide">
-              Journey to better health with mytwin
-            </p>
-            <div className="items-center justify-center flex mt-4">
+            <p className="md:text-[40px] text-[40px] -mt-2 text-center tracking-wide">
+  Journey to better <br/> health with mytwin
+</p>
+
+            <div className="items-center justify-center flex mt-6">
               <p className="text-center md:w-[80%]">
                 Real-time Metabolic Health Monitoring Platform Designed by
                 Experts & Doctors
@@ -266,7 +267,7 @@ export default function Pop() {
               className="font-bold text-center mt-6"
               style={{ fontSize: "1.2em" }}
             >
-              Join now for{" "}
+              Sign Up Below For :{" "}
             </p>
             <div className="flex items-center justify-center">
               <div className="mt-4 space-y-2">
@@ -317,7 +318,7 @@ export default function Pop() {
   <button
     onClick={handleButtonClick}
     className="bg-[#FF6B00] py-2 text-white font-sans rounded-full w-full mt-4"
-    style={{ padding: "4pt 0" }} // Adjust padding as needed
+    style={{ padding: "6pt 0" }} // Adjust padding as needed
   >
     Get Free Health Assessment Score
   </button>
@@ -332,7 +333,7 @@ export default function Pop() {
               className="mt-2 text-center mb-8"
               style={{ fontSize: "0.8em" }}
             >
-              ©2024 mytwin Privacy Policy . Terms of Service Applied
+              ©2024 mytwin Privacy Policy . Terms of Service Apply
             </div>
           </>
         )}

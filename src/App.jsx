@@ -47,7 +47,7 @@ function App() {
     <img
       src="main.svg"
       alt="Main Image"
-      className="hidden md:block h-1/2 md:-ml-20 mt-10"
+      className="hidden md:block h-1/2 md:-ml-20 mt-20"
       style={{ width: "3000px", height: "380px" }}
     />
 
@@ -69,14 +69,14 @@ function App() {
         className="md:flex md:flex-col text-center ml-10 mb-2 mt-5"
         style={{ fontSize: "1.8em" }}
       > */}
-      <h1 className="text-[#000000] text-3xl text-center mx-10 mt-5 "
+      <h1 className="text-[#000000] text-3xl text-center mx-10 mt-10 "
       style={{ fontSize: "1.5em" }}>
         Tracking Millions of Health Data Points Daily
       </h1>
       {/* </div > */}
 
       {/* Marquee section with images */}
-      <div className="marquee-container -mt-20">
+      <div className="marquee-container -mt-10">
         <Marquee speed={75} gradient={false}>
           <img src="d1.svg" alt="Icon 1" className="mx-4 w-60 h-60" />
           <img src="d2.svg" alt="Icon 2" className="mx-4 w-60 h-60" />
@@ -102,7 +102,7 @@ function App() {
       <img
       src="box_phone.svg"
       alt="Phone Image for Small Devices"
-      className="block md:hidden -mt-20 mx-auto"
+      className="block md:hidden -mt-10 mx-auto"
       style={{ width: "90%", height: "auto" }} // Adjust width and height as needed for mobile
       />
      </div>
