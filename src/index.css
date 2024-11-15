@@ -10,6 +10,14 @@
   background-repeat: repeat-y;
 }
 
+/* Media query to hide background image on small devices */
+@media (max-width: 768px) {
+  .App {
+    background-image: none; /* Remove background image on small devices */
+  }
+}
+
+
 .video-background {
   position: fixed;
   top: 0;
