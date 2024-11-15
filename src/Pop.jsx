@@ -215,10 +215,12 @@ export default function Pop() {
                 className="w-full py-2 text-center border-2 border-black rounded-full opacity-65"
               />
               <input
-                type="text"
-                placeholder="What actions help you reach your health and fitness goals?"
-                className="w-full py-2 text-center border-2 border-black rounded-full opacity-65"
-              />
+  type="text"
+  placeholder="What actions help you reach your health and fitness goals?"
+  className="w-3/4 py-2 text-center border-2 border-black rounded-full opacity-65" // Adjusted width
+  style={{ maxWidth: '400px' }} // Set a max width to control wrapping
+/>
+
             </div>
             <div className="flex justify-center items-center mt-4">
               <button
