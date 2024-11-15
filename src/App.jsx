@@ -31,28 +31,37 @@ function App() {
             />
           </div>
 
-          <div className="md:flex md:px-10 px-4 -mt-10 ">
-            <div className="md:flex md:flex-col md:w-3/5">
-              <h1 className="text-3xl md:text-6xl text-center md:text-left">
-                Achieve <br />
-                <span className="text-[#FF6B00] font-bold">Optimal Health</span>
-                <br />
-                through{" "}
-                <b>
-                  Tailored <br /> & Data-Driven <br /> Metabolic Care
-                </b>
-              </h1>
-              <img
-                src="main.svg"
-                alt=""
-                className="md:flex h-1/2 md:-ml-20 mt-10 sm:-mt-100"
+          <div className="md:flex md:px-10 px-4 -mt-10">
+  <div className="md:flex md:flex-col md:w-3/5">
+    <h1 className="text-3xl md:text-6xl text-center md:text-left">
+      Achieve <br />
+      <span className="text-[#FF6B00] font-bold">Optimal Health</span>
+      <br />
+      through{" "}
+      <b>
+        Tailored <br /> & Data-Driven <br /> Metabolic Care
+      </b>
+    </h1>
 
-                style={{ width: "3000px", height: "380px" }}
-              />
-            </div>
+    {/* Image for larger screens */}
+    <img
+      src="main.svg"
+      alt="Main Image"
+      className="hidden md:block h-1/2 md:-ml-20 mt-10"
+      style={{ width: "3000px", height: "380px" }}
+    />
 
-            <Pop />
-          </div>
+    {/* Image for small devices */}
+    <img
+      src="phoe_ss.svg"
+      alt="Phone Image for Small Devices"
+      className="block md:hidden mt-10 mx-auto"
+      style={{ width: "90%", height: "auto" }} // Adjust width and height as needed for mobile
+    />
+  </div>
+  <Pop />
+</div>
+
         </div>
       </div>
 
@@ -89,8 +98,16 @@ function App() {
           <img src="d6.svg" alt="Icon 6" className="mx-4 w-60 h-60" />
         </Marquee>
       </div>
+      <div>
+      <img
+      src="box_phone.svg"
+      alt="Phone Image for Small Devices"
+      className="block md:hidden -mt-20 mx-auto"
+      style={{ width: "90%", height: "auto" }} // Adjust width and height as needed for mobile
+      />
+     </div>
 
-      <div className=" bg-[#E6E6E6] flex flex-col md:flex-row space-y-4 md:space-y-0 md:justify-between px-8 py-4 -mt-16 text-center">
+      <div className=" bg-[#E6E6E6] flex flex-col md:flex-row space-y-4 md:space-y-0 md:justify-between px-8 py-4 mt-5 md:-mt-16 text-center">
         <p>
           Connect with us at :<b> info@mytwinlab.com</b>
         </p>
