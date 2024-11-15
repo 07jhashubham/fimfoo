@@ -253,7 +253,7 @@ export default function Pop() {
         ) : (
           // Initial content
           <>
-            <p className="text-center tracking-wide -mt-2 text-[5vw] md:text-[3vw] leading-tight">
+            <p className="text-center tracking-wide -mt-2 text-[7vw] md:text-[3vw] leading-tight">
   Journey to better <br /> health with mytwin
 </p>
 
