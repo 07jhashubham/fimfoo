@@ -63,3 +63,10 @@ input[type="number"]::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield; /* Firefox */
 }
+
+
+.placeholder-text-sm::placeholder {
+  font-size: 0.6rem; /* Adjust the font size as needed, 0.875rem is roughly equivalent to 14px */
+  color: #888; /* Optional: Change the color if desired */
+}
+

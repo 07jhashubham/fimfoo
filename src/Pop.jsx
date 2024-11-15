@@ -28,14 +28,14 @@ export default function Pop() {
                 name="first"
                 id="first"
                 placeholder="First Name"
-                className="w-full py-2 text-center border-2 border-black rounded-full opacity-65"
+                className="w-full py-2 text-center border-2 border-black rounded-full opacity-65 sm:placeholder-text-sm"
               />
               <input
                 type="text"
                 name="last"
                 id="last"
                 placeholder="Last Name"
-                className="w-full py-2 text-center border-2 border-black rounded-full opacity-65"
+                className="w-full py-2 text-center border-2 border-black rounded-full opacity-65 sm:placeholder-text-sm"
               />
             </div>
             <div className="flex items-center justify-center mt-4">
@@ -67,7 +67,7 @@ export default function Pop() {
                 <input
                   type="number"
                   placeholder="Mobile Number"
-                  className="w-full py-2 border-2 border-l-0 border-black rounded-r-full opacity-65 text-center no-spinner"
+                  className="w-full py-2 border-2 border-l-0 border-black rounded-r-full opacity-65 text-center no-spinner sm:placeholder-text-sm"
                 />
               </div>
             </div>
@@ -78,12 +78,12 @@ export default function Pop() {
                 name="city"
                 id="city"
                 placeholder="City"
-                className="w-full py-2 text-center border-2 border-black rounded-full opacity-65"
+                className="w-full py-2 text-center border-2 border-black rounded-full opacity-65 sm:placeholder-text-sm"
               />
               <input
                 type="number"
                 placeholder="Pincode"
-                className="w-full py-2 border-2 border-black rounded-full opacity-65 text-center no-spinner"
+                className="w-full py-2 border-2 border-black rounded-full opacity-65 text-center no-spinner sm:placeholder-text-sm"
               />
             </div>
             <div className="flex items-center justify-center mt-4">
@@ -207,17 +207,17 @@ export default function Pop() {
               <input
                 type="text"
                 placeholder="Other health goals?"
-                className="w-full py-2 text-center border-2 border-black rounded-full opacity-65"
+                className="w-full py-2 text-center border-2 border-black rounded-full opacity-65 sm:placeholder-text-sm"
               />
               <input
                 type="text"
                 placeholder="Where did you hear about mytwin?"
-                className="w-full py-2 text-center border-2 border-black rounded-full opacity-65"
+                className="w-full py-2 text-center border-2 border-black rounded-full opacity-65 sm:placeholder-text-sm"
               />
               <input
                 type="text"
                 placeholder="What actions help you reach your health and fitness goals?"
-                className="w-full py-2 text-center border-2 border-black rounded-full opacity-65"
+                className="w-full py-2 text-center border-2 border-black rounded-full opacity-65 sm:placeholder-text-sm"
               />
             </div>
             <div className="flex justify-center items-center mt-4">
