@@ -45,7 +45,7 @@ function App() {
               <img
                 src="main.svg"
                 alt=""
-                className="md:flex h-1/2 mt-10 md:-ml-20"
+                className="md:flex h-1/2 mt-10 md:-ml-20 md:mt-2"
                 style={{ width: "3000px", height: "380px" }}
               />
             </div>
