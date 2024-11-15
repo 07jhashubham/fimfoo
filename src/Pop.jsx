@@ -310,7 +310,7 @@ export default function Pop() {
   <input
     type="email"
     placeholder="Enter e-mail address"
-    className="w-full py-2 text-center border-2 border-black rounded-full opacity-65"
+    className="w-full py-2 text-center border-2 border-black rounded-full opacity-85"
   />
 
   {/* Button */}
