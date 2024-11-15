@@ -39,13 +39,14 @@ function App() {
                 <br />
                 through{" "}
                 <b>
-                  Tailored <br /> & Data-Driven <br /> Metabolic Care1
+                  Tailored <br /> & Data-Driven <br /> Metabolic Care
                 </b>
               </h1>
               <img
                 src="main.svg"
                 alt=""
-                className="md:flex h-1/2 mt-10 md:-ml-20 sm:mt-0"
+                className="md:flex h-1/2 md:-ml-20 mt-10 sm:-mt-100"
+
                 style={{ width: "3000px", height: "380px" }}
               />
             </div>
@@ -59,7 +60,8 @@ function App() {
         className="md:flex md:flex-col text-center ml-10 mb-2 mt-5"
         style={{ fontSize: "1.8em" }}
       > */}
-      <h1 className="text-[#000000] text-3xl text-center mx-10 mt-5 ">
+      <h1 className="text-[#000000] text-3xl text-center mx-10 mt-5 "
+      style={{ fontSize: "1.5em" }}>
         Tracking Millions of Health Data Points Daily
       </h1>
       {/* </div > */}
