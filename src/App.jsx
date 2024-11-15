@@ -33,7 +33,7 @@ function App() {
 
           <div className="md:flex md:px-10 px-4 -mt-10">
   <div className="md:flex md:flex-col md:w-3/5">
-    <h1 className="text-3xl md:text-2xl text-center md:text-left">
+    <h1 className="text-3xl md:text-4xl text-center md:text-left">
       Achieve <br />
       <span className="text-[#FF6B00] font-bold">Optimal Health</span>
       <br />
