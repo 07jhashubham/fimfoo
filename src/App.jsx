@@ -108,39 +108,45 @@ function App() {
      </div>
 
      <div className="bg-[#E6E6E6] flex flex-col md:flex-row space-y-4 md:space-y-0 md:justify-between px-8 py-4 mt-5 md:-mt-16 text-center">
-  <p className="flex items-center justify-center md:justify-start space-x-4">
-    Connect with us at :<b className="ml-1"> info@mytwinlab.com</b>
-    <a href="https://example.com/link1" target="_blank" rel="noopener noreferrer">
-      <img
-        src="/icon1.svg"
-        alt="Icon 1"
-        className="w-6 h-6 hover:opacity-75"
-      />
-    </a>
-    <a href="https://example.com/link2" target="_blank" rel="noopener noreferrer">
-      <img
-        src="/icon2.svg"
-        alt="Icon 2"
-        className="w-6 h-6 hover:opacity-75"
-      />
-    </a>
-    <a href="https://example.com/link3" target="_blank" rel="noopener noreferrer">
-      <img
-        src="/icon3.svg"
-        alt="Icon 3"
-        className="w-6 h-6 hover:opacity-75"
-      />
-    </a>
-    <a href="https://example.com/link4" target="_blank" rel="noopener noreferrer">
-      <img
-        src="/icon4.svg"
-        alt="Icon 4"
-        className="w-6 h-6 hover:opacity-75"
-      />
-    </a>
-  </p>
+  <div className="flex flex-col md:flex-row items-center justify-center md:justify-start space-y-2 md:space-y-0 md:space-x-4">
+    <p>
+      Connect with us at :<b className="ml-1"> info@mytwinlab.com</b>
+    </p>
+    <div className="flex space-x-4">
+      <a href="https://example.com/link1" target="_blank" rel="noopener noreferrer">
+        <img
+          src="/icon1.svg"
+          alt="Icon 1"
+          className="w-6 h-6 sm:w-8 sm:h-8 hover:opacity-75"
+        />
+      </a>
+      <a href="https://example.com/link2" target="_blank" rel="noopener noreferrer">
+        <img
+          src="/icon2.svg"
+          alt="Icon 2"
+          className="w-6 h-6 sm:w-8 sm:h-8 hover:opacity-75"
+        />
+      </a>
+      <a href="https://example.com/link3" target="_blank" rel="noopener noreferrer">
+        <img
+          src="/icon3.svg"
+          alt="Icon 3"
+          className="w-6 h-6 sm:w-8 sm:h-8 hover:opacity-75"
+        />
+      </a>
+      <a href="https://example.com/link4" target="_blank" rel="noopener noreferrer">
+        <img
+          src="/icon4.svg"
+          alt="Icon 4"
+          className="w-6 h-6 sm:w-8 sm:h-8 hover:opacity-75"
+        />
+      </a>
+    </div>
+  </div>
   <p>© 2024 mytwin . All rights reserved</p>
 </div>
+
+
 
 
     </div>
