@@ -12,22 +12,46 @@ export default function Pop() {
     setFormSubmitted(true);
   };
 
+  const handleNoThanksClick = () => {
+    setAssessmentSubmitted(false);
+    setFormSubmitted(false);
+  };
   return (
     <div className="md:w-2/5 mt-12 md:mt-0">
-      <div className="border border-black md:px-12 px-6 rounded-xl pt-12 bg-gradient-to-r from-[#E2E7EB] to-[#BACDD2] ">
+      <div className="border border-black md:px-12 px-6 rounded-xl pt-12 bg-gradient-to-r from-[#E2E7EB] to-[#BACDD2] "
+       style={{
+        background: "linear-gradient(to right, rgba(226, 231, 235, 0.8), rgba(186, 205, 210, 0.8))",
+      }}>
         {formSubmitted ? (
           // 3rd content after the second submit button click
           <>
-            <p className="md:text-4xl text-2xl text-center tracking-wide">
-              Thank You!
-            </p>
-            <div className="items-center justify-center flex mt-4">
-              <p className="text-center">
-                Your details have been received. We'll get back to you shortly
-                with personalized insights and recommendations.
-              </p>
-            </div>
-          </>
+  <div className="flex flex-col items-center justify-center">
+    <p className="text-4xl md:text-5xl font-serif text-center mb-4 mt-10 md:mt-20">WELCOME TO</p>
+    <p className="text-3xl md:text-6xl font-serif text-center mb-10">mytwin</p>
+    <p className="text-base md:text-lg text-center mb-10 text-gray-700 sm:mb-5">
+      Check your inbox for something special
+    </p>
+    <div className="flex space-x-6 mb-10 md:mb-40">
+      {/* Social Media Icons */}
+      <a href="https://Instagram.com" target="_blank" rel="noopener noreferrer">
+        <img src="/icon1.svg" alt="Instagram" className="w-8 h-8" />
+      </a>
+      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+        <img src="/icon2.svg" alt="Facebook" className="w-8 h-8" />
+      </a>
+      <a href="https://X.com" target="_blank" rel="noopener noreferrer">
+        <img src="/icon3.svg" alt="X" className="w-8 h-8" />
+      </a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <img src="/icon4.svg" alt="Linkedin" className="w-8 h-8" />
+      </a>
+    </div>
+    <p className="text-xs text-gray-500 text-center mb-20 md:mb-10">
+      ©2024 mytwin Privacy Policy · Terms of Service Apply
+    </p>
+  </div>
+</>
+
         ) : assessmentSubmitted ? (
           // 2nd content after the initial button click
           <>
@@ -246,6 +270,30 @@ export default function Pop() {
               >
                 Submit
               </button>
+            </div>
+            <div className="flex justify-center items-center mt-4">
+              <button
+                onClick={handleNoThanksClick}
+                className="underline font-bold text-lg"
+              >
+                No Thanks
+              </button>
+            </div>
+            <div className="items-center justify-center text-gray-600 flex mt-4">
+              <p className="text-center text-xs mb-5">
+                * By providing your phone number,you agree to receive recurring
+                automated marketing text messages (e.g.cart reminder, health
+                program launch) from this platform and third parties acting on
+                its behalf. Consent is not a condition to obtain goods or
+                services. Msg and data rate may apply. Message frequency varies.
+                Reply HELP for help and STOP to cancel.You are also agree to the
+                Terms of Services and Privacy Policy.
+              </p>
+            </div>
+            <div className="items-center justify-center text-gray-600 flex mt-4">
+              <p className="text-center text-xs mb-10">
+                ©2024 mytwin Privacy Policy,Terms of Service Apply
+              </p>
             </div>
           </>
         ) : (
