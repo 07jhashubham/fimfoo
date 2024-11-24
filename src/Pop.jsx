@@ -333,6 +333,18 @@ export default function Pop() {
                     Daily Tracking: Food, Activity, Sleep, Vitals & Stress
                   </p>
                 </div>
+                <div className="flex items-start space-x-5">
+                  <img src="kaam.svg" alt="" className="w-3 h-6" />
+                  <p className="text-left">
+                    Real-Time Insights & Personalised Guidance
+                  </p>
+                </div>
+                <div className="flex items-start space-x-5">
+                  <img src="kaam.svg" alt="" className="w-3 h-6" />
+                  <p className="text-left">
+                    Tailored Health Interventions
+                  </p>
+                </div>
               </div>
             </div>
             <div className="flex flex-col items-center justify-center mt-4 w-full max-w-md mx-auto">
